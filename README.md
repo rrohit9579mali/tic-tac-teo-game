@@ -8,6 +8,8 @@ this game basically beasdd on html csss and js
  7 | 8 | 9
 
 practically game is playing
+
+
  X | O | X
 -----------
  O | X | O
