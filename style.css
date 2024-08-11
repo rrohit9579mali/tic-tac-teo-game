@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+    align-items: center;
+    background:linear-gradient(45deg,#0a0a0a,#3a4452);
+    
+}
+
+.Calculator{
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 100, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    background: transparent;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0px 13px 15px rgba(84,84, 84, 0.3);
+    font-size: 40px;
+    text-align: right;
+    display: block;
+    width: 100%; /* Full width for input */
+    color: white;
+}
+
+.Calculator::placeholder{
+    color: white;
+    padding: 0%;
+}
+
+button {
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  /* Horizontally center the text */
+    box-shadow: -8px -8px 15px rgba(255,255,255, 0.1);
+    cursor: pointer;
+    padding: 0;  /* Ensure padding doesn't interfere with centering */
+}
+
+.buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+ /* Center all buttons */
+    width: 100%;
+}
+.eualBtn{
+    background-color: orangered;
+}
+.plusBtn{
+    color: greenyellow;
+}
+.mulBtn{
+    color: fuchsia;
+}
+.divBtn{
+    color: darkviolet;
+}
+.AC{
+    background-color: red;
+}
+.DEL{
+background-color: blue;
+}
+.modBtn{
+color: yellow;
+}
